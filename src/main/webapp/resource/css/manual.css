@@ -1,0 +1,170 @@
+main {
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-flex;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #368162!important;
+}
+
+.logout {
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+    transition: ease-in-out all 0.2s;
+}
+
+.logout:hover {
+    color: white;
+}
+
+.name {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 70%;
+    margin-left: 15%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.description {
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    overflow: hidden;
+    height: 35px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.addbutton {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #368162;
+    color:white;
+    border-style: none;
+    text-align: center;
+    margin-left: auto;
+    transition: all ease-in-out 0.2s;
+}
+
+.addbutton:hover {
+    background-color: #2b7358;
+}
+
+.button {
+    color: white;
+    background-color: #368162;
+    border: 0;
+    border-radius: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px ;
+    transition: all ease-in-out 0.2s;
+}
+
+.button:hover {
+    background-color: #2b7358;
+}
+
+.input {
+    border-radius: 4px;
+    border-style: none;
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.info {
+    width: 32%;
+    border-style: solid;
+    border-color: #dbdbdb;
+    margin: 0.3%;
+    border-radius: 5%;
+    text-align: center;
+    height: 160px;
+    position: relative;
+}
+
+.prices {
+    display: inline-flex;
+}
+
+.bottom-info {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.name {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.inputside {
+    width: 40%;
+}
+
+.resultside {
+    width: 60%;
+    margin-top: 60px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+}
+
+.trash {
+    color: gray;
+    font-size: 16px;
+    border-style: none;
+    background-color: transparent;
+    z-index: 10;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 10px;
+    line-height: 0;
+    transition: 0.2s all ease-in-out;
+    border-radius: 50%;
+}
+
+.trash i {
+    width: 16px;
+}
+
+.trash:hover {
+    background-color: #e3e3e3;
+    border-radius: 50px;
+    color: black;
+}
+
+.backbutton {
+    color: white;
+    background-color: #757575;
+    border: 0;
+    border-radius: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px ;
+    transition: all ease-in-out 0.2s;
+}
+
+.backbutton:hover {
+    background-color: #8f8f8f;
+}

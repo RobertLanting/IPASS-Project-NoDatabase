@@ -1,0 +1,214 @@
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #368162!important;
+}
+
+.welcome {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.logout {
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+    transition: ease-in-out all 0.2s;
+}
+
+.logout:hover {
+    color: white;
+}
+
+.link {
+    display: inline-block;
+    height: 200px;
+    width: 280px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    border-radius: 8px;
+    align-items: flex-end;
+    background-color: #f1f1f1;
+    padding: 15px;
+    position: relative;
+    z-index: 5;
+    line-height: 20px;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.link:hover {
+    color: #368162;
+}
+
+.lists {
+    display: inline-flex;
+    margin: 5px;
+    position: relative;
+    transition: 0.2s all ease-in-out;
+}
+
+.lists:hover {
+transform: scale(1.01);
+    -webkit-box-shadow: 0px 30px 50px -35px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 30px 50px -35px rgba(0,0,0,0.25);
+    box-shadow: 0px 30px 50px -35px rgba(0,0,0,0.25);
+}
+
+main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.buttonhome {
+    align-content: center;
+    font-size: 16px;
+    color: white;
+    background-color: #368162;
+    border: 0;
+    border-radius: 100px;
+    margin-bottom: 100px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+}
+
+.buttonhome:hover {
+    background-color: #2b7358;
+}
+
+.hometop {
+    text-align: center;
+}
+
+.amount {
+    font-size: 15px;
+    color: #6B6B6B;
+    margin-top: 5px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    width: 500px;
+    margin: 15% auto;
+    alignment: center;
+    z-index: 9;
+    padding: 20px;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #368162;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: #9f9f9f;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+.buttons {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bg{
+    position:fixed;
+    z-index:999;
+    width:100%;
+    height:100%;
+    background-color: black;
+    background-color:rgba(0,0,0,.75);
+    display: none;
+}
+
+.trash {
+    color: gray;
+    font-size: 16px;
+    border-style: none;
+    background-color: transparent;
+    z-index: 10;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    line-height: 0;
+    transition: 0.2s all ease-in-out;
+    border-radius: 50%;
+}
+
+.trash i {
+    width: 16px;
+}
+
+.trash:hover {
+    background-color: #e3e3e3;
+    border-radius: 50px;
+    color: black;
+}
+
+
+
+

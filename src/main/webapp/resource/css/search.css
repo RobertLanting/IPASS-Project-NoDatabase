@@ -1,0 +1,218 @@
+main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+}
+
+.all-products {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info {
+    width: 19.4%;
+    border-style: solid;
+    border-color: #dbdbdb;
+    margin: 0.3%;
+    border-radius: 5%;
+}
+
+img {
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #368162!important;
+}
+
+.title {
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.bottom-info {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.priceBonus {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #EB6D00;
+}
+
+.old-price {
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.addbutton {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #368162;
+    color:white;
+    border-style: none;
+    text-align: center;
+    margin-left: auto;
+    transition: all ease-in-out 0.2s;
+}
+
+.addbutton:hover {
+    background-color: #2b7358;
+}
+
+.searchbarinput {
+    padding: 6px;
+    font-size: 17px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: solid;
+    border-color: #c2c1c1;
+}
+
+.searchbarinput:focus {
+    outline: none;
+}
+
+.searchbutton {
+    height: 42px;
+    width: 42px;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.searchbutton:hover {
+    background-color: #e2e2e2;
+    transition: ease-in-out 0.3s;
+}
+
+.toppage {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+    background-color: #368162;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    transition: all ease-in-out 0.2s;
+}
+
+.back:hover {
+    background-color: #2b7358;
+    color: white;
+}
+.searchbar {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.prices {
+    display: inline-flex;
+}
+
+.logout {
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+    transition: ease-in-out all 0.2s;
+}
+
+.logout:hover {
+    color: white;
+}
+
+.topleft {
+    display: inline-flex;
+}
+
+.productadded {
+    background-color: white;
+    border-style: solid;
+    border-color: #d0d0d0;
+    width: 900px;
+    height: 250px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -450px;
+    margin-top: -125px;
+    display: none;
+}
+
+
+
+.popuptext {
+    font-size: 40px;
+    width: 450px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 50px;
+    overflow-wrap: break-word;
+}
+
+.popupprice {
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+.popupold {
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    text-decoration: line-through;
+}
+
+.popuppricebonus {
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    color: #EB6D00;
+}
+
+.toegevoegd {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    left: 39%;
+}
+
+.popuptextdiv {
+    display: inline-flex;
+}
